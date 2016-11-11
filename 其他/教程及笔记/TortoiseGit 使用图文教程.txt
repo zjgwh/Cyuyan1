@@ -1,0 +1,54 @@
+TortoiseGit 使用图文教程
+
+摘要: TortoiseGit 使用教程
+git的使用越来越广泛
+
+使用命令比较麻烦,下面讲解一下tortoisegit的使用
+
+先下载安装git(msysgit)和tortoisegit,安装后提示重启电脑,不解释
+
+1.找一个文件夹做仓库
+
+这里用repository\shared.gif,空白处点击右键出现以下菜单,创建共享仓库
+
+
+
+在弹出的对话框勾选make it bare 
+
+
+
+第一次的话会提示是个空仓库
+
+2.在工作目录下,先确认身份TortoiseGit-->Setting,在打开的对话框里,左边选git,右边就会出现写用户名和邮箱的地方
+
+
+
+在用户工作目录下点击右键,选择git clone,弹出对话框
+
+注意：下面的图中不是gif而是git，应该写错了！
+
+
+
+点击ok后,发现此文件夹下多了一个隐藏的文件夹.git,则clone成功
+
+3.ethan用户在.git同级目录下添加一个文件index.jsp,里面写内容"hello git!"
+
+然后右键Tortoisegit-->add,完成后index.jsp变成+号
+
+然后右键Git Commit -> "master"... 在弹出的对话框,输入message信息后点ok,此时index.jsp变成对勾,提交到了本地服务器
+
+然后右键Tortoisegit-->push则提交到了远程服务器
+
+4.other用户
+
+在other用户的工作目录下,输入用户名和邮箱后,clone和pull,发现了.git文件夹和index.jsp
+
+打开index.jsp输入other update file 保存后,index.jsp变成红色的感叹号
+
+此时右键没有add实际上是工具帮add,然后commit和push
+
+ethan用户pull下来,发现index.jsp里有了other update file
+
+5.冲突解决
+
+有冲突的话,TortoiseGit-->Edit conflicts 比较之后解决冲突之后 TortoiseGit-->Resolve然后commit和push
