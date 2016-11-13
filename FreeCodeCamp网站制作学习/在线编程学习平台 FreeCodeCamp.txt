@@ -1,0 +1,7 @@
+FreeCodeCamp logo在线编程学习平台 FreeCodeCamp
+
+
+
+FreeCodeCamp 是 GitHub 上排名第一的开源项目，致力于帮助人们利用零散时间学习编程。它的使命是Learn to code and help nonprofits（学习编程，去帮助那些非盈利组织）。FCC涵盖HTML5、CSS、React、JavaScript、Database等课程，游戏化程度非常高，学员可以通过线上聊天室和线下社区活动（Coffee and Code）相互帮助。目前覆盖全球160+个国家、1000+个城市，40W+开发者在平台学习。
+
+FreeCodeCamp 国内的中文版请看 https://freecodecamp.cn （这是由国内爱好者翻译的中文版本）

@@ -1,0 +1,10 @@
+
+一、sytle用法
+样式的属性多达几千个，但别担心，按照80-20原则，常用的也就几十个，你完全可以掌握它。
+
+当你键入<h2 style="color: red">CatPhotoApp</h2>，你就给h2元素添加了inline style(内联样式)。
+
+<style>
+  选择器 {属性名称: 属性值;}
+  h2 {color: red;}
+</style>
